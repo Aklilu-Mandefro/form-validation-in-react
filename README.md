@@ -43,6 +43,7 @@ You are now ready to go!
 
 ## Final Output
  <img src="https://i.imgur.com/7PmxPhY.gif" alt="Logo">
+<h6> To preview the form validation, just click on the play iccon at the top right of this image </h6>
 
 ## Contribute to this project
 
