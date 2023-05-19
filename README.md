@@ -1,50 +1,13 @@
-<div id="top"></div>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://www.freecodecamp.org/">
-    <img src="./public/fcc.png" alt="Logo" width="80" height="80">
-  </a>
+# How To Validating Forms in React - For Beginners
 
-<h3 align="center">How To Validate Forms in React</h3>
-
-  <p align="center">
-    The Ultimate Guide for Beginners
-    <br />
-    <a href="https://www.freecodecamp.org/news/how-to-validate-forms-in-react"><strong>Read on FreeCodeCamp »</strong></a>
-    <br />
-    <br />
-    <a href="https://react-fcc-forms.vercel.app/">View Demo</a>
-    ·
-    <a href="https://github.com/Yazdun/react-fcc-forms/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/Yazdun/react-fcc-forms/issues">Report Bug</a>
-  </p>
-
-[![freeCodeCamp](https://img.shields.io/badge/-freeCodeCamp-brightgreen?logo=freeCodeCamp)](https://www.freecodecamp.org/)
-[![React](https://img.shields.io/badge/-React-blue?logo=React)](https://reactjs.org/)
-[![React Hook Form](https://img.shields.io/badge/-React%20Hook%20Form-6E36F6?logo=React&logoColor=white&color=6E36F6)](https://react-hook-form.com/)
-[![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=Tailwind%20CSS&logoColor=black&color=white)](https://tailwindcss.com/)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-FFA500?logo=JavaScript&logoColor=white&color=FFA500)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-blue?logo=Framer)](https://www.framer.com/api/motion/)
-
-</div>
-
-![Thumbnail](./public/thumbnail.jpg)
-
-## Introduction
-
-Welcome to the GitHub repository for the
-[How To Validate Forms in React: The Ultimate Guide for Beginners](https://www.freecodecamp.org/news/how-to-validate-forms-in-react)
-tutorial! In this tutorial, you will create a functional and reusable form using
-the popular react-hook-form library in combination with Tailwind CSS for
+This is a functional and reusable form developed using the popular react-hook-form library in combination with Tailwind CSS for
 styling.
 
-The repository contains the complete source code for the form, including the
-Input component and validation configurations. It also includes the necessary
-dependencies and configuration files to get started with the form validation in
+The repository contains the complete source code for the form, including the Input component and validation configurations. It also includes the necessary dependencies and configuration files to get started with the form validation in
 your own React projects.
+
+<!-- PROJECT LOGO -->
 
 ## Getting Started
 
@@ -54,7 +17,7 @@ these steps:
 1. Clone the repository to your local machine.
 
 ```bash
-git@github.com:your-username/react-fcc-forms.git
+git@github.com:your-username/form-validation-in-react.git
 ```
 
 2. Open the cloned folder in your preferred code editor, install the required
@@ -78,6 +41,9 @@ npm run dev
 
 You are now ready to go!
 
+## Final Output
+ <img src="https://i.imgur.com/7PmxPhY.gif" alt="Logo">
+
 ## Contribute to this project
 
 Thank you for browsing this repo. Any contributions you make are **greatly
@@ -92,3 +58,9 @@ create a pull request. You can also simply open an issue with the tag
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Raise An Issue
+  <p align="left">
+    <a href="https://github.com/Aklilu-Mandefro/form-validation-in-react/issues">Request Feature</a><br>
+    <a href="https://github.com/Aklilu-Mandefro/form-validation-in-react/issues">Report Bug</a>
+  </p>
