@@ -11,6 +11,8 @@ import { findInputError, isFormInvalid } from '../utils'
 import { useFormContext } from 'react-hook-form'
 import { AnimatePresence, motion } from 'framer-motion'
 import { MdError } from 'react-icons/md'
+import { FaEye, FaEyeSlash } from 'react-icons/fa'
+import { useState } from 'react'
 
 export const Input = ({
   name,
@@ -20,6 +22,7 @@ export const Input = ({
   placeholder,
   validation,
   multiline,
+  multiType,
   className,
 }) => {
   const {
@@ -30,8 +33,10 @@ export const Input = ({
   const inputErrors = findInputError(errors, name)
   const isInvalid = isFormInvalid(inputErrors)
 
-  const input_tailwind =
-    'p-5 font-medium rounded-md w-full border border-slate-300 placeholder:opacity-60'
+  const [passwordType, setPasswordType] = useState(type)
+
+  const input_tailwind = 'bg-white p-5 font-medium rounded-md w-full border border-slate-300 placeholder:opacity-60'
+  const view_password = 'relative right-auto'
 
   return (
     <div className={cn('flex flex-col w-full gap-2', className)}>
@@ -57,13 +62,48 @@ export const Input = ({
           {...register(name, validation)}
         ></textarea>
       ) : (
-        <input
-          id={id}
-          type={type}
-          className={cn(input_tailwind)}
-          placeholder={placeholder}
-          {...register(name, validation)}
-        />
+        <>
+          {multiType ? (
+            <>
+              <div className={cn(input_tailwind) + 'relative flex flex-row'}>
+                <input
+                  id={id}
+                  type={passwordType}
+                  className="w-[100%] focus:outline-none "
+                  placeholder={placeholder}
+                  {...register(name, validation)}
+                />
+                {passwordType === 'password' ? (
+                  <button
+                    className={cn(view_password)}
+                    onClick={() => {
+                      setPasswordType('text')
+                    }}
+                  >
+                    <FaEye />
+                  </button>
+                ) : (
+                  <button
+                    className={cn(view_password)}
+                    onClick={() => {
+                      setPasswordType('password')
+                    }}
+                  >
+                    <FaEyeSlash />
+                  </button>
+                )}
+              </div>
+            </>
+          ) : (
+            <input
+              id={id}
+              type={type}
+              className={cn(input_tailwind)}
+              placeholder={placeholder}
+              {...register(name, validation)}
+            />
+          )}
+        </>
       )}
     </div>
   )
