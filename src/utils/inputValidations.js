@@ -10,6 +10,7 @@ export const name_validation = {
   name: 'name',
   label: 'name',
   type: 'text',
+  multiType : false,
   id: 'name',
   placeholder: 'write your name ...',
   validation: {
@@ -46,6 +47,7 @@ export const password_validation = {
   name: 'password',
   label: 'password',
   type: 'password',
+  multiType : true,
   id: 'password',
   placeholder: 'type password ...',
   validation: {
@@ -64,6 +66,7 @@ export const num_validation = {
   name: 'num',
   label: 'number',
   type: 'number',
+  multiType : false,
   id: 'num',
   placeholder: 'write a random number',
   validation: {
@@ -78,6 +81,7 @@ export const email_validation = {
   name: 'email',
   label: 'email address',
   type: 'email',
+  multiType : false,
   id: 'email',
   placeholder: 'write a random email address',
   validation: {
@@ -88,7 +92,7 @@ export const email_validation = {
     pattern: {
       value:
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-      message: 'not valid',
+      message: 'Invalid',
     },
   },
 }
