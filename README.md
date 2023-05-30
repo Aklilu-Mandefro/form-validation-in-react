@@ -65,3 +65,9 @@ create a pull request. You can also simply open an issue with the tag
     <a href="https://github.com/Aklilu-Mandefro/form-validation-in-react/issues">Request Feature</a><br>
     <a href="https://github.com/Aklilu-Mandefro/form-validation-in-react/issues">Report Bug</a>
   </p>
+  
+  <br>
+Made with :heart: by <a href="https://github.com/Aklilu-Mandefro" target="_blank">Aklilu Mandefro</a>
+
+## Please give this repo a ⭐ if you found it helpful.
+
