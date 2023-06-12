@@ -69,5 +69,7 @@ create a pull request. You can also simply open an issue with the tag
   <br>
 Made with :heart: by <a href="https://github.com/Aklilu-Mandefro" target="_blank">Aklilu Mandefro</a>
 
-## Please give this repo a ⭐ if you found it helpful.
+## 🙋‍♂️  Support
+#### 💙  If you like this project, give it a ⭐ and share it with friends!
+
 
